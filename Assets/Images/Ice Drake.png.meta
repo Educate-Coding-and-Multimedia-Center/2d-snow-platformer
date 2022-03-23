@@ -1,0 +1,625 @@
+fileFormatVersion: 2
+guid: 29885d445ed633c47acfd4dc5fc1d4db
+timeCreated: 1647242728
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ice Drake_0
+    21300002: Ice Drake_1
+    21300004: Ice Drake_3
+    21300006: Ice Drake_5
+    21300008: Ice Drake_6
+    21300010: Ice Drake_7
+    21300012: Ice Drake_8
+    21300014: Ice Drake_9
+    21300016: Ice Drake_10
+    21300018: Ice Drake_11
+    21300020: Ice Drake_12
+    21300022: Ice Drake_13
+    21300024: Ice Drake_14
+    21300026: Ice Drake_15
+    21300028: Ice Drake_16
+    21300030: Ice Drake_17
+    21300032: Ice Drake_18
+    21300034: Ice Drake_19
+    21300036: Ice Drake_20
+    21300038: Ice Drake_21
+    21300040: Ice Drake_22
+    21300042: Ice Drake_23
+    21300044: Ice Drake_24
+    21300046: Ice Drake_25
+    21300048: Ice Drake_26
+    21300050: Ice Drake_28
+    21300052: Ice Drake_29
+    21300054: Ice Drake_30
+    21300056: Ice Drake_31
+    21300058: Ice Drake_32
+    21300060: Ice Drake_33
+    21300062: Ice Drake_34
+    21300064: Ice Drake_35
+    21300066: Ice Drake_36
+    21300068: Ice Drake_37
+    21300070: Ice Drake_38
+    21300072: Ice Drake_39
+    21300074: Ice Drake_40
+    21300076: Ice Drake_41
+    21300078: Ice Drake_42
+    21300080: Ice Drake_43
+    21300082: Ice Drake_44
+    21300084: Ice Drake_45
+    21300086: Ice Drake_46
+    21300088: Ice Drake_47
+    21300090: Ice Drake_48
+    21300092: Ice Drake_49
+    21300094: Ice Drake_50
+    21300096: Ice Drake_51
+    21300098: Ice Drake_52
+    21300100: Ice Drake_53
+    21300102: Ice Drake_54
+    21300104: Ice Drake_55
+    21300106: Ice Drake_56
+    21300108: Ice Drake_2
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ice Drake_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 696
+        width: 132
+        height: 85
+      alignment: 9
+      pivot: {x: 0.3799336, y: 0.5074477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 696
+        width: 160
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5074477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 696
+        width: 160
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5074477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 696
+        width: 163
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5086052, y: 0.5074477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_6
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 696
+        width: 132
+        height: 85
+      alignment: 9
+      pivot: {x: 0.38347557, y: 0.5074477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 591
+        width: 135
+        height: 85
+      alignment: 9
+      pivot: {x: 0.37, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 591
+        width: 135
+        height: 85
+      alignment: 9
+      pivot: {x: 0.37, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 591
+        width: 135
+        height: 85
+      alignment: 9
+      pivot: {x: 0.37, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_10
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 590
+        width: 135
+        height: 85
+      alignment: 9
+      pivot: {x: 0.37, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 477
+        width: 126
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 337
+        width: 131
+        height: 119
+      alignment: 9
+      pivot: {x: 0.37, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 337
+        width: 131
+        height: 119
+      alignment: 9
+      pivot: {x: 0.37, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 337
+        width: 131
+        height: 119
+      alignment: 9
+      pivot: {x: 0.37, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 337
+        width: 131
+        height: 119
+      alignment: 9
+      pivot: {x: 0.34612477, y: 0.40000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_16
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 337
+        width: 131
+        height: 119
+      alignment: 9
+      pivot: {x: 0.37, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_18
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 337
+        width: 131
+        height: 119
+      alignment: 9
+      pivot: {x: 0.3413496, y: 0.3947436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_19
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 337
+        width: 131
+        height: 119
+      alignment: 9
+      pivot: {x: 0.3365744, y: 0.40000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_20
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 337
+        width: 131
+        height: 119
+      alignment: 9
+      pivot: {x: 0.34, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_21
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 337
+        width: 131
+        height: 119
+      alignment: 9
+      pivot: {x: 0.3113501, y: 0.40000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_22
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 337
+        width: 190
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_23
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 337
+        width: 227
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_24
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 337
+        width: 228
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_25
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 337
+        width: 229
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_26
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 337
+        width: 220
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 250
+        width: 105
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_29
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 250
+        width: 100
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_30
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 250
+        width: 100
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_31
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_32
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 152
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 148
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_34
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 147
+        width: 82
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_51
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 11
+        width: 158
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_52
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 11
+        width: 172
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_53
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 11
+        width: 171
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_54
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 11
+        width: 171
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_55
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 11
+        width: 173
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_56
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 11
+        width: 172
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Drake_2
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 148
+        width: 81
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

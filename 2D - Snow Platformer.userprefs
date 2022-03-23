@@ -1,0 +1,28 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Ice Drake Scripts\IceDrakeScript.cs">
+    <Files>
+      <File FileName="Assets\Scripts\BG Script\ScaleBackground.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Camera Scripts\FollowPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player Scripts\PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Snowball Scripts\SnowballBullet.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player Scripts\PlayerShoot.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Helper Scripts\Destroyer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemies Scripts\Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Ice Drake Scripts\IceBulletScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player Scripts\DestroyExplosion.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Ice Drake Scripts\AnimationEvents.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Ice Drake Scripts\IceDrakeScript.cs" Line="8" Column="1" />
+      <File FileName="Assets\Scripts\Ice Drake Scripts\IceDrakeAttack.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Ice Drake Scripts\HealthBarDrake.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Ice Drake Scripts\HealthBarPositioin.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Helper Scripts\MyTagsLayers.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player Scripts\PlayerDamage.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player Scripts\ScoreScript.cs" Line="33" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
