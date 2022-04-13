@@ -42,5 +42,10 @@ public class SnowballBullet : MonoBehaviour {
 			Instantiate (explosion, transform.position, Quaternion.identity);
 			Destroy (gameObject);
 		}
+		if(other.CompareTag(MyTagsLayers.ICEBULLET_TAG)){
+			Instantiate (explosion, transform.position, Quaternion.identity);
+			Destroy (gameObject);
+			Destroy (other.gameObject);
+		}
 	}
 }

@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Boss_Idle.cs" />
+     <Compile Include="Assets\Boss_Run.cs" />
      <Compile Include="Assets\Scripts\BG Script\ScaleBackground.cs" />
      <Compile Include="Assets\Scripts\Camera Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\Enemies Scripts\Enemy.cs" />

@@ -11,13 +11,18 @@ public class IceDrakeScript : MonoBehaviour {
 	public int maxHealth = 10;
 	public int currentHealth;
 
-	bool moveLeft, canDamage;
+	bool canDamage;
 
 	Animator anim;
 	Rigidbody2D rb2d;
 
+	public Transform player;
+
+	public bool isFlipped = false;
+
+
 	void Awake(){
-		anim = GameObject.Find ("Ice Drake").GetComponent<Animator> ();
+		anim = GetComponent<Animator> ();
 		healthBarDrake = GameObject.Find ("Boss Health Bar").GetComponent<HealthBarDrake> ();
 		rb2d = GetComponent<Rigidbody2D> ();
 		canDamage = true;
@@ -25,40 +30,18 @@ public class IceDrakeScript : MonoBehaviour {
 	}
 
 	void Start () {
-		moveLeft = true;
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		//anim.Play ("Shoot");
 		//anim.Play ("Idle");
-		BossWalk();
 
 	}
 		
-	public void BossWalk(){
-		anim.Play ("Walk");
-
-		Vector2 temp = transform.position;
-
-		for (int i = 0; i < 10; i++) {
-			if (moveLeft) {
-				temp.x -= speed * Time.deltaTime;
-				//rb2d.velocity = new Vector2 (-speed, rb2d.velocity.y);
-			} else {
-				temp.x += speed * Time.deltaTime;
-				//rb2d.velocity = new Vector2 (speed, rb2d.velocity.y);
-			}
-
-			transform.position = temp;
-		}
-
-		moveLeft = !moveLeft;
-
-	}
-
 	IEnumerator WaitForDamage(){
-		yield return new WaitForSeconds (1f);
+		yield return new WaitForSeconds (0.5f);
 		canDamage = true;
 	}
 
@@ -71,11 +54,27 @@ public class IceDrakeScript : MonoBehaviour {
 
 				if (currentHealth <= 0) {
 					//gameObject.SetActive (false);
-					anim.Play ("Dead");
+					anim.SetBool("IsDead", true);
 				}
 
 				StartCoroutine (WaitForDamage ());
 			}
+		}
+	}
+
+	public void LookAtPlayer() {
+		Vector3 flipped = transform.localScale;
+		flipped.z *= -1f;
+
+		if (transform.position.x > player.position.x && isFlipped) {
+			transform.localScale = flipped;
+			transform.Rotate(0f, 180f, 0f);
+			isFlipped = false;
+		}
+		else if (transform.position.x < player.position.x && !isFlipped) {
+			transform.localScale = flipped;
+			transform.Rotate(0f, 180f, 0f);
+			isFlipped = true;
 		}
 	}
 }

@@ -9,5 +9,7 @@ public class MyTagsLayers : MonoBehaviour {
 	public static string ENEMY_TAG = "Enemy";
 	public static string COIN_TAG = "Coin";
 	public static string BOSS_TAG = "Boss";
+	public static string ICEBULLET_TAG = "Ice Bullet";
+	public static string GROUND_TAG = "Ground";
 
 }

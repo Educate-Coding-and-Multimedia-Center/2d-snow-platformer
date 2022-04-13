@@ -21,7 +21,11 @@ public class IceDrakeAttack : MonoBehaviour {
 		Vector2 temp = shootLocation.transform.position;
 		temp.y = temp.y + Random.Range (-offSetY, offSetY);
 
-		Instantiate (iceBullet, temp, Quaternion.identity);
+		GameObject iceBulletObj = Instantiate (iceBullet, temp, Quaternion.identity);
+		Vector2 tempScale = transform.localScale;
+		tempScale.x *= (transform.localScale.z);
+		iceBulletObj.transform.localScale = tempScale;
+		iceBulletObj.GetComponent<IceBulletScript>().Speed *= (transform.localScale.z * -1);
 	}
 
 }

@@ -29,18 +29,16 @@ public class FollowPlayer : MonoBehaviour {
 		followPlayer = true;
 	}
 	
-	void Update () {
+	void LateUpdate () {
 		if (followPlayer) {
-			Vector3 aheadTargetPos = target.position + Vector3.forward * offSetZ;
-
-			if (aheadTargetPos.x > transform.position.x) {
-				Vector3 newCamPos = Vector3.SmoothDamp (transform.position,
-														aheadTargetPos,
-														ref currentVelocity,
-														cameraSpeed);
-				transform.position = new Vector3 (newCamPos.x, transform.position.y, newCamPos.z);
-				lastTargetPos = target.position;
-			}
+			Vector3 temp = new Vector3 (target.position.x, target.position.y + 2f, target.position.z);
+			Vector3 aheadTargetPos = temp + Vector3.forward * offSetZ;
+			Vector3 newCamPos = Vector3.SmoothDamp (transform.position,
+													aheadTargetPos,
+													ref currentVelocity,
+													cameraSpeed);
+			transform.position = new Vector3 (newCamPos.x, newCamPos.y, newCamPos.z);
+			lastTargetPos = new Vector3(target.position.x, target.position.y + 2f, target.position.z);
 		}
 	}
 }

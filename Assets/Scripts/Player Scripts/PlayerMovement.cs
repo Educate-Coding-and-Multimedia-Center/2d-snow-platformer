@@ -46,7 +46,7 @@ public class PlayerMovement : MonoBehaviour {
 			PlayerMoveAdvance (speed);
 		}
 
-		CheckEdgeLeftCamera ();
+		//CheckEdgeLeftCamera ();
 
 		anim.SetInteger ("Move", Mathf.Abs((int) rb2d.velocity.x));
 
@@ -57,15 +57,22 @@ public class PlayerMovement : MonoBehaviour {
 
 		if (move > 0) {
 			ChangeDirection (scalePlayer);
-			rb2d.velocity = new Vector2 (speedPlayer, rb2d.velocity.y);
+			//rb2d.velocity = new Vector2 (speedPlayer, rb2d.velocity.y);
+			PlayerMovementSpeed(speedPlayer);
 		} else if (move < 0) {
 			ChangeDirection (-scalePlayer);
-			rb2d.velocity = new Vector2 (-speedPlayer, rb2d.velocity.y);
+			//rb2d.velocity = new Vector2 (-speedPlayer, rb2d.velocity.y);
+			PlayerMovementSpeed(-speedPlayer);
 		} else {
-			rb2d.velocity = new Vector2 (0f, rb2d.velocity.y);
+			//rb2d.velocity = new Vector2 (0f, rb2d.velocity.y);
+			PlayerMovementSpeed(0f);
 		}
 	}
-
+		
+	void PlayerMovementSpeed(float speed){
+		rb2d.velocity = new Vector2 (speed, rb2d.velocity.y);
+	}
+		
 	void CheckEdgeLeftCamera(){
 		Vector3 cam = Camera.main.transform.position;
 

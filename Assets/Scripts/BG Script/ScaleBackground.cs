@@ -10,8 +10,14 @@ public class ScaleBackground : MonoBehaviour {
 		float width = sr.sprite.bounds.size.x;
 		float height = sr.sprite.bounds.size.y;
 
+		print (width);
+		print (height);
+
 		float worldHeight = Camera.main.orthographicSize * 2f;
 		float worldWidth = (worldHeight / Screen.height) * Screen.width;
+
+		print (worldWidth);
+		print (worldHeight);
 
 		Vector3 tempScale = transform.localScale;
 		tempScale.x = worldWidth / width + 0.1f;
